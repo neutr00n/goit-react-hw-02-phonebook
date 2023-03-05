@@ -8,6 +8,7 @@ export const Filter = ({ handleFilterValue, value }) => {
       <FilterInput
         type="text"
         name="filter"
+        placeholder="Rosie Simpson"
         value={value}
         onChange={handleFilterValue}
       />

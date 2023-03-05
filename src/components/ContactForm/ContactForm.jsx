@@ -31,7 +31,7 @@ export const ContactForm = ({ handleFormSubmit }) => {
       <ContForm>
         <Label>
           <InputDescrip>Name</InputDescrip>
-          <ContInput type="text" name="name" />
+          <ContInput type="text" name="name" placeholder="Rosie Simpson" />
           <ErrorMessage
             name="name"
             render={msg => <ErrMessageText> {msg} </ErrMessageText>}
@@ -39,7 +39,7 @@ export const ContactForm = ({ handleFormSubmit }) => {
         </Label>
         <Label>
           <InputDescrip>Number</InputDescrip>
-          <ContInput type="tel" name="number" />
+          <ContInput type="tel" name="number" placeholder="+380-00-000-00-00" />
           <ErrorMessage
             name="number"
             render={msg => <ErrMessageText> {msg} </ErrMessageText>}
